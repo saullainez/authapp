@@ -1,4 +1,39 @@
 # Authapp
+ Aplicacion web desarrollada en Angular.
+
+ # Funcionalidad
+ * Sistema de autenticación con Auth0.
+ * Mostrar pantalla de login y botón para cerrar sesión.
+ * Visualizar páginas sin necesidad de iniciar sesión y proteger rutas para que puedan ser accesibles solamente para usuarios autenticados.
+
+ # Lo que aprendí
+ * Qué es Auth0 y la documentación basada en Angular 2.
+ * Autenticación con Facebook, Twitter, Google, entre otros.
+ * Diseño de un formulario de captura para la creación de usuarios.
+ * Personalización de la caja de login.
+ * Uso de servicios para bloquear rutas que no son válidas si el usuario no está autenticado.
+ * Obtener la información del perfil del usuario ingresado.
+
+ ------------------------------------------------------------
+ # Authapp
+ Web application developed in Angular
+
+ # Functionality
+ * Authentication system with Auth0.
+ * Show login screen and button to log out.
+ * View pages without logging in and protect paths so they can only be accessed by authenticated users.
+
+ # What I Learned
+ * What is Auth0 and Angular 2 based documentation.
+ * Authentication with Facebook, Twitter, Google, among others.
+ * Design of a capture form for user creation.
+ * Customization of the login box.
+ * Use of services to block routes that are not valid if the user is not authenticated.
+ * Obtain the profile information of the user entered.
+
+
+
+ ------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
