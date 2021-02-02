@@ -8,6 +8,9 @@ import { HomeComponent } from './components/home/home.component';
 import { ProtegidaComponent } from './components/protegida/protegida.component';
 import { PreciosComponent } from './components/precios/precios.component';
 
+// Import the module from the SDK
+import { AuthModule } from '@auth0/auth0-angular';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,11 @@ import { PreciosComponent } from './components/precios/precios.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule.forRoot({
+      domain: 'dev-zey5-1z4.us.auth0.com',
+      clientId: 'aB2QFVm3eDhLUv17opPWxjyJBOolJPgC'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
