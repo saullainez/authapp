@@ -15,13 +15,13 @@
         </ul>
         <span class="navbar-text">
           <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
-            <button class="btn btn-outline-danger">
+            <button (click)="auth.logout({ returnTo: document.location.origin })" class="btn btn-outline-danger">
               Salir
             </button>
           </ng-container>
       
           <ng-template #loggedOut>
-            <button class="btn btn-outline-primary">Ingresar</button>
+            <button (click)="auth.loginWithRedirect()" class="btn btn-outline-primary">Ingresar</button>
           </ng-template>
         </span>
       </div>

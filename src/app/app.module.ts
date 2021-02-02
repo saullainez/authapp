@@ -17,7 +17,7 @@ import { AuthModule } from '@auth0/auth0-angular';
     NavbarComponent,
     HomeComponent,
     ProtegidaComponent,
-    PreciosComponent
+    PreciosComponent,
   ],
   imports: [
     BrowserModule,
